@@ -14,8 +14,8 @@ export function spCode() {
       metal(n*.5+.5);
       shine(n*.5+.5); 
       
-      color(normal * .1 + vec3(2.7, 1.8, 1));
-      color(normal * .1 + vec3(3, 1, 2.5));
+      color(normal * .1 + vec3(2.7, 5.8, 1));
+      color(normal * .1 + vec3(5, 0.1, 2.5));
       displace(mouse.x * 2, mouse.y * 2, 0);
       boxFrame(vec3(10), abs(n) * .1 + 3.04 );
       mixGeo(pointerDown);
